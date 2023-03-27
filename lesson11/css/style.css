@@ -1,0 +1,116 @@
+body{
+	height: 1050px;
+	padding: 100px;
+
+}
+.avto{
+   position: relative;
+}
+.avto__iteam{
+	padding: 20px;
+	
+}
+.avto__iteam--body{
+	background-color: rgb(39, 57, 216);
+	border-radius: 20px 0 0 0 ;
+   width: 350px;
+   height: 70px;
+	position: absolute;
+   left: 300px;
+   top: 200px;
+	z-index: 1;
+}
+.avto__iteam--door1{
+	background-color: rgb(11, 79, 143);
+   border-radius: 10px ;
+   border-style: solid;
+   width: 90px;
+   height: 110px;
+   position: absolute;
+   left: 495px;
+   top:145px;
+	z-index: 3;
+}
+.avto__iteam--door2{
+	background-color: rgb(11, 79, 143);
+   border-radius: 60px 10px 10px 10px;
+   border-style: solid;
+   width: 90px;
+   height: 110px;
+   position: absolute;
+   left:395px ;
+   top:145px ;
+	z-index: 3;
+}
+.avto__iteam--wheel1{
+	background-color: black;
+   border-radius: 50px;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   left: 560px;
+   top: 235px;
+	z-index: 4;	
+}
+.avto__iteam--wheel2{
+	background-color: black;
+   border-radius: 50px;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   left: 330px;
+   top: 235px;
+	z-index: 4;
+}
+.avto__iteam--roof{
+	background-color: rgb(203, 227, 250);
+   border-radius: 100px 10px 0 0 ;
+   border-style: solid ;
+   position: absolute;
+   width: 260px;
+   height: 60px;
+   left: 390px;
+	top: 140px;
+	z-index: 0;
+}
+.avto__iteam--window1::before{
+	content: "";
+	background-color: rgb(170, 170, 170);
+	border-radius: 6px 6px 0 0;
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	left: 500px;
+	top: 150px;
+	bottom: 100px;
+	z-index: 5;
+	transition: all 3s ease 0s;
+}
+.avto__iteam--window1:hover::before{
+	bottom: 2px;
+}
+.avto__iteam--window2{
+	background-color: rgb(170, 170, 170);
+	border-radius: 50px 6px 0 0;
+   position: absolute;
+   width: 80px;
+   height: 50px;
+	left: 400px;
+	top: 150px;
+	z-index: 5;
+}
+.avto__iteam--light::before{
+	content: "";
+	background-color: rgb(135, 135, 5);
+	border-radius: 50px 0 0 50px;
+	width: 16px;
+	height: 20px;
+	position: absolute;
+	left: 290px;
+	top: 220px;
+}
+.avto__iteam--light:hover::before{
+	background-color: yellow;
+	box-shadow: -10px 10px 50px 40px yellow;
+	z-index: 5;
+}
